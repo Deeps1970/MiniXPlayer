@@ -2,7 +2,9 @@
 
 A sleek, fully responsive music player web app built using **HTML**, **CSS (Bootstrap 5)**, and **JavaScript**. This lightweight web music player allows you to play and navigate your favorite songs seamlessly across all devices.
 
-🌐 **Live Demo**: [MiniXPlayer](https://deeps1970.github.io/MiniXPlayer/)
+## 🌐 Live Demo
+
+- [MiniXPlayer](https://deeps1970.github.io/MiniXPlayer/)
 
 ## 🚀 Features
 
