@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MiniXPlay</title>
+    <link rel="icon" href="./src/icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#EA3323"><path d="M240-320h320v-128l160 128v-320L560-512v-128H240v320Zm-80 160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-480H160v480Zm0-480v480-480Z"/></svg> MiniXPlay</a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-secondary" type="submit"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="24px" viewBox="0 -960 960 960" width="24px" fill="#a7a7a7">
+                        <path
+                            d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                    </svg></button>
+            </form>
+        </div>
+    </nav>
+    <section class="carousel-container">
+        <div id="carouselExampleCaptions" class="carousel slide custom-carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./src/nh.jpg" class="d-block w-100" alt="picture">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Nothing Here</h5>
+                        <p>Nothing Here to See.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./src/hb.jpg" class="d-block w-100" alt="picture">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Still Beating</h5>
+                        <p>This is for the heart still beating</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./src/bp.jpg" class="d-block w-100" alt="picture">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>The Best</h5>
+                        <p>The Best Place in the World!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./src/yl.jpg" class="d-block w-100" alt="picture">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Flowers On The Roads</h5>
+                        <p>You Are the Flowers on the Roads.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+    <section class="gallery-card-container">
+        <div class="card" style="width: 18rem;">
+            <img src="./src/bp.jpg" class="card-img-top" alt="picture">
+            <div class="card-body">
+                <h5 class="card-title">The Best</h5>
+                <p class="card-text">The Best Place In the World</p>
+                <a href="#" class="btn btn-danger">Watch Now!</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./src/hb.jpg" class="card-img-top" alt="picture">
+            <div class="card-body">
+                <h5 class="card-title">Still Beating</h5>
+                <p class="card-text">This is for the Hearts Still Beating</p>
+                <a href="#" class="btn btn-danger">Watch Now!</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./src/nh.jpg" class="card-img-top" alt="picture">
+            <div class="card-body">
+                <h5 class="card-title">Nothing Here</h5>
+                <p class="card-text">Nothing here to see.</p>
+                <a href="#" class="btn btn-danger">Watch Now!</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./src/yl.jpg" class="card-img-top" alt="picture">
+            <div class="card-body">
+                <h5 class="card-title">Flowers On The Road</h5>
+                <p class="card-text">You Are the Flowers on the Roads.</p>
+                <a href="#" class="btn btn-danger">Watch Now!</a>
+            </div>
+        </div>
+    </section>
+
+    <hr style="color: rgb(116, 116, 116);">
+
+    <footer>
+        <p> &copy; 2025, All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #0a0a0a;
+}
+
+.custom-carousel .carousel-inner {
+    height: 500px;
+    position: relative;
+}
+
+.custom-carousel .carousel-item {
+    height: 100%;
+    position: relative;
+}
+
+.custom-carousel .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.custom-carousel .carousel-control-prev,
+.custom-carousel .carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+    z-index: 2;
+}
+
+.gallery-card-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.form-control {
+    width: 500px;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(121, 120, 120);
+}
+
+@media (max-width: 740px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .gallery-card-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 5px;
+        gap: 30px;
+    }
+
+    .form-control {
+        width: 180px;
+    }
+
+    .navbar-brand {
+        font-size: small;
+    }
+
+    svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .custom-carousel .carousel-inner {
+        height: 300px;
+    }
+}
